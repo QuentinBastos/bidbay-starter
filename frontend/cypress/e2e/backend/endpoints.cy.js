@@ -20,7 +20,7 @@ describe("GET /api/products", () => {
     cy.request(endpoint).then((response) => {
       expect(response.status).to.be.eq(200);
       expect(response.headers["content-type"]).to.contains("application/json");
-
+      
       for (let product of response.body) {
         expect(product.id).to.be.a("string");
         expect(product.id).to.be.match(UUIDv4);

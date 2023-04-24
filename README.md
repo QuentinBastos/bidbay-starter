@@ -217,7 +217,7 @@ Endpoints pour les utilisateurs :
 		```
 		
 	Exemple de réponse 404 Not Found - Si l'utilsateur spécifié n'existe pas:
-
+	
 		```
 		Status: 404 Not Found
 		Cotent-Type: application/json
@@ -344,7 +344,7 @@ Endpoints pour les produits:
             "name": "Machine à écrire",
             "description": "Machine à écrire vintage en parfait état de fonctionnement pour une expérience d'écriture unique et authentique.",
             "pictureUrl": "https://picsum.photos/id/403/512/512",
-            "category": "High-Tech",
+            "category": "Higx	h-Tech",
             "originalPrice": 23,
             "endDate": "2026-01-01T09:00:00Z"
 		}
@@ -686,11 +686,6 @@ cd frontend/
 npm install
 npm run dev
 # Your frontend server is on localhost:5173
-```
-
-Si jamais votre serveur n'est pas accessible depuis Cypress, vous pouvez tester cette commande
-```
-npm run dev:workaround
 ```
 
 ### Lancer le backend
